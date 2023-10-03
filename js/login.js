@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (username == storedUsername && password == storedPassword) {
             alert('Login bem-sucedido!');
             form.reset();
-            window.open("http://fatecmaua.com.br", "_self")
+            window.open("home.html", "_self")
         } else {
             alert('Credenciais inválidas. Tente novamente.');
 
