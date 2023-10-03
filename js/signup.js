@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
             alert('As senhas devem ser as mesmas!!');
         } else {
             // Armazenar os dados no cache do navegador
-            localStorage.
+            localStorage.setItem('username', username);
             localStorage.setItem('password', password);
 
             alert('Cadastro realizado com sucesso!');
