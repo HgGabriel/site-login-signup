@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const form = document.querySelector('.signup'); // Alterei o seletor para '.login'
+    const form = document.querySelector('.signup');
 
     form.addEventListener('submit', function(event) {
         event.preventDefault();
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (password !== passwordConf) {
             alert('As senhas devem ser as mesmas!!');
         } else {
-            // Armazenar os dados no cache do navegador
+           
             localStorage.setItem('username', username);
             localStorage.setItem('password', password);
 
