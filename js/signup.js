@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
             localStorage.setItem('email', email)
 
             alert('Cadastro realizado com sucesso!');
+            window.open("logIn.html", "_self")
             form.reset();
 
             console.log(username);
