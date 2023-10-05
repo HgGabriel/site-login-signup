@@ -7,12 +7,14 @@ document.addEventListener('DOMContentLoaded', function () {
         event.preventDefault()
 
         const username = document.querySelector('#login__name').value;
+        const email = document.querySelector('#login__name').value;
         const password = document.querySelector('#login__password').value;
 
         const storedUsername = localStorage.getItem('username')
         const storedPassword = localStorage.getItem('password')
+        const storedEmail = localStorage.getItem('email')
 
-        if (username == storedUsername && password == storedPassword) {
+        if ((username == storedUsername || email == storedEmail) && password == storedPassword) {
             alert('Login bem-sucedido!');
             form.reset();
             window.open("home.html", "_self")

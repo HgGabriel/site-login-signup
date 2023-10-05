@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
            
             localStorage.setItem('username', username);
             localStorage.setItem('password', password);
+            localStorage.setItem('email', email)
 
             alert('Cadastro realizado com sucesso!');
             form.reset();
