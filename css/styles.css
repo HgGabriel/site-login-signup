@@ -82,6 +82,7 @@ strong:hover{
     gap: 30px;
     display: flex;
     width:70vw ;
+    flex-direction: row;
 }
 
 .content__desc__socials__links{
@@ -280,6 +281,19 @@ a:hover {
     text-decoration: underline;
     cursor: pointer;
     
+}
+
+
+
+
+@media (max-width:1280px) {
+
+   
+
+   .content__desc{
+    align-items: center;
+    flex-direction:column;
+   }
 }
 
 
