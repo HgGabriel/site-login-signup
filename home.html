@@ -19,20 +19,17 @@
             <nav class="cabecalho__menu">
                 <ul class="cabecalho__menu__opcoes">
                     <li>
-                        <a class="cabecalho__menu__opcoes__link" href="http://fatecmaua.com.br"
+                        <a class="cabecalho__menu__opcoes__link" 
                             target="content__frame__site" onclick="FatecM()">Fatec Mauá</a>
                     </li>
                     <li>
-                        <a class="cabecalho__menu__opcoes__link" href="http://fatecsantoandre.edu.br/"
-                        target="content__frame__site"  onclick="FatecSA()">Fatec Santo André</a>
+                        <a class="cabecalho__menu__opcoes__link" onclick="FatecSA()">Fatec Santo André</a>
                     </li>
                     <li>
-                        <a class="cabecalho__menu__opcoes__link" href="http://www.fatecsaocaetano.edu.br/"
-                        target="content__frame__site"  onclick="FatecSC()">Fatec São Caetano</a>
+                        <a class="cabecalho__menu__opcoes__link" onclick="FatecSC()">Fatec São Caetano</a>
                     </li>
                     <li>
-                        <a class="cabecalho__menu__opcoes__link" href="http://www.fatecsp.br/"
-                        target="content__frame__site"  onclick="FatecSP()">Fatec São Paulo</a>
+                        <a class="cabecalho__menu__opcoes__link" onclick="FatecSP()">Fatec São Paulo</a>
                     </li>
                 </ul>
             </nav>
@@ -40,15 +37,20 @@
 
     </header>
     <main>
+        <section class="site__desc">
+            <h2 class="site__desc__title">Seja Bem Vindo!</h2>
+            <p class="site__desc__sum">Neste site você terá acesso aos <strong>sites oficiais</strong> das principais fatecs do estado de São Paulo, assim como suas respectivas <strong>redes sociais</strong> e um <strong>mapa</strong> para se guiar em como chegar lá! </p>
+        </section>
+
         <div class="content">
             <iframe class="content__frame__site" name="content__frame__site" frameborder="0">
 
             </iframe>
 
             <div class="content__desc">
-                <iframe name="content__frame__map"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.3453341853724!2d-46.460124799999996!3d-23.6636053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce69426dbe06a3%3A0xf0b5c494be47ae58!2sFaculdade%20de%20Tecnologia%20de%20Mau%C3%A1!5e0!3m2!1sen!2sbr!4v1696562560942!5m2!1sen!2sbr"
-                    width="700" height="600" allowfullscreen="" loading="lazy"
+                <iframe name="content__frame__map" id="iframeMap"
+                    src=""
+                    width="800" height="500" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade" style="border:2px solid var(--cor-terciaria);
                     box-shadow: 0px 4px 4px var(--cor-terciaria);"></iframe>
 
@@ -58,15 +60,15 @@
                     <div class="content__desc__socials__links">
                         <div class="socials__field">
                             <i class="login__icon fa-brands fa-instagram"></i>
-                            <a id="link__instagram" href="https://instagram.com" >Instagram</a>
+                            <a id="link__instagram" href="https://instagram.com" target="_blank">Instagram</a>
                         </div>
                         <div class="socials__field">
                             <i class="login__icon fa-brands fa-facebook"></i>
-                            <a id="link__facebook" href="https://instagram.com" >Facebook</a>
+                            <a id="link__facebook" href="https://instagram.com" target="_blank">Facebook</a>
                         </div>
                         <div class="socials__field">
                             <i class="login__icon fa-brands fa-linkedin"></i>
-                            <a id="link__linkedin" href="https://instagram.com" >LinkedIn</a>
+                            <a id="link__linkedin" href="https://instagram.com" target="_blank">LinkedIn</a>
                         </div>
                        
                     </div>

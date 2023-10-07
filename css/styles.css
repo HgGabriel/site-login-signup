@@ -24,11 +24,37 @@ background-color: var(--cor-primaria);
     background-color: var(--cor-superficies);
     height: 10vh;
     width: 100vw;
-    -webkit-box-shadow: 0px 11px 12px -1px rgba(0,0,0,0.74);
-    -moz-box-shadow: 0px 11px 12px -1px rgba(0,0,0,0.74);
-    box-shadow: 0px 11px 12px -1px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 0px 11px 12px 0px rgba(0,0,0,0.74);
+    -moz-box-shadow: 0px 11px 12px 0px rgba(0,0,0,0.74);
+    box-shadow: 0px 11px 12px 0px rgba(0,0,0,0.74);
    
     
+}
+
+.site__desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: var(--cor-secundaria);
+    gap: 16px;
+    text-align: center;
+}
+
+.site__desc__title{
+    padding: 20px 20px 0px 20px;
+    
+}
+
+.site__desc__sum{
+    padding: 20px ;
+    width: 80vw;
+}
+
+
+strong:hover{
+    color: var(--cor-terciaria);
 }
 
 
@@ -252,6 +278,7 @@ a {
 a:hover {
     color: var(--cor-terciaria);
     text-decoration: underline;
+    cursor: pointer;
     
 }
 
