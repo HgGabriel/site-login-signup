@@ -7,7 +7,7 @@
     <title>Document</title>
     <script src="/js/home.js"></script>
     <link rel="stylesheet" href="/css/styles.css">
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -19,8 +19,8 @@
             <nav class="cabecalho__menu">
                 <ul class="cabecalho__menu__opcoes">
                     <li>
-                        <a class="cabecalho__menu__opcoes__link" 
-                            target="content__frame__site" onclick="FatecM()">Fatec Mauá</a>
+                        <a class="cabecalho__menu__opcoes__link" target="content__frame__site" onclick="FatecM()">Fatec
+                            Mauá</a>
                     </li>
                     <li>
                         <a class="cabecalho__menu__opcoes__link" onclick="FatecSA()">Fatec Santo André</a>
@@ -39,24 +39,34 @@
     <main>
         <section class="site__desc">
             <h2 class="site__desc__title">Seja Bem Vindo!</h2>
-            <p class="site__desc__sum">Neste site você terá acesso aos <strong>sites oficiais</strong> das principais fatecs do estado de São Paulo, assim como suas respectivas <strong>redes sociais</strong> e um <strong>mapa</strong> para se guiar em como chegar lá! </p>
+            <p class="site__desc__sum">Neste site você terá acesso aos <strong>sites oficiais</strong> das principais
+                fatecs do estado de São Paulo, assim como suas respectivas <strong>redes sociais</strong> e um
+                <strong>mapa</strong> para se guiar em como chegar lá! </p>
         </section>
+
+        <hr class="solid">
 
         <div class="content">
             <iframe class="content__frame__site" name="content__frame__site" frameborder="0">
 
             </iframe>
 
+            <section class="site__desc__plus">
+                <h2 class="site__desc__title">Mais detalhes!</h2>
+                <p class="site__desc__sum">Aqui você tem acesso à <strong>localização</strong> escolhida, assim como
+                    suas respectivas <strong>redes sociais</strong>. Sinta-se livre para clicar e explorar!!</p>
+            </section>
+
+            <hr class="solid">
+
             <div class="content__desc">
-                <iframe name="content__frame__map" id="iframeMap"
-                    src=""
-                    width="500" height="500" allowfullscreen="" loading="lazy"
+                <iframe name="content__frame__map" id="iframeMap" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade" style="border:2px solid var(--cor-terciaria);
                     box-shadow: 0px 4px 4px var(--cor-terciaria);"></iframe>
 
                 <div class="content__desc__socials">
                     <label class="content__desc__socials__title">acesse as Redes Sociais</label>
-                   
+
                     <div class="content__desc__socials__links">
                         <div class="socials__field">
                             <i class="login__icon fa-brands fa-instagram"></i>
@@ -70,7 +80,7 @@
                             <i class="login__icon fa-brands fa-linkedin"></i>
                             <a id="link__linkedin" href="https://instagram.com" target="_blank">LinkedIn</a>
                         </div>
-                       
+
                     </div>
                 </div>
 
