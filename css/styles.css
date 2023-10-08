@@ -54,6 +54,7 @@ main{
     gap: 16px;
     text-align: center;
 }
+
 .site__desc__plus{
     display: flex;
     flex-direction: column;
