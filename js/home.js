@@ -19,7 +19,7 @@ function FatecSA(){
 function FatecSC(){
     console.log("Fatec de São Caetano")
     window.open("http://www.fatecsaocaetano.edu.br/", "content__frame__site")
-    document.querySelector("iframeMap").src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116947.78342470211!2d-46.60531858460191!3d-23.653839373936247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5cb6c8baf5a7%3A0x24fb537795849cc!2sFaculty%20of%20Technology%20of%20S%C3%A3o%20Caetano%20do%20Sul!5e0!3m2!1sen!2sbr!4v1696651589601!5m2!1sen!2sbr"
+    document.querySelector("#iframeMap").src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116947.78342470211!2d-46.60531858460191!3d-23.653839373936247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5cb6c8baf5a7%3A0x24fb537795849cc!2sFaculty%20of%20Technology%20of%20S%C3%A3o%20Caetano%20do%20Sul!5e0!3m2!1sen!2sbr!4v1696651589601!5m2!1sen!2sbr"
     document.querySelector("#link__instagram").href = "https://www.instagram.com/fatecsaocaetano/"
     document.querySelector("#link__facebook").href = "https://www.facebook.com/FatecSaoCaetano/"
     document.querySelector("#link__linkedin").href = "https://www.linkedin.com/company/fatec-s-o-caetano-do-sul/"
@@ -28,7 +28,7 @@ function FatecSC(){
 function FatecSP(){
     console.log("Fatec de São Paulo")
     window.open("http://www.fatecsp.br/", "content__frame__site")
-    document.querySelector("iframeMap").src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234116.8093769951!2d-46.632205991729265!3d-23.529799473564115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce585f8b81eb75%3A0xb742158dee17d684!2sS%C3%A3o%20Paulo%20State%20Technological%20College!5e0!3m2!1sen!2sbr!4v1696651705567!5m2!1sen!2sbr"
+    document.querySelector("#iframeMap").src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234116.8093769951!2d-46.632205991729265!3d-23.529799473564115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce585f8b81eb75%3A0xb742158dee17d684!2sS%C3%A3o%20Paulo%20State%20Technological%20College!5e0!3m2!1sen!2sbr!4v1696651705567!5m2!1sen!2sbr"
     document.querySelector("#link__instagram").href = "https://www.instagram.com/fatecsp/"
     document.querySelector("#link__facebook").href = "https://www.facebook.com/fatecspoficial/"
     document.querySelector("#link__linkedin").href = "https://www.linkedin.com/company/fatecsp/"
